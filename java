@@ -24,7 +24,6 @@ public class TemperatureConverter {
             throw new IllegalArgumentException("Invalid fromUnit. Please use 'C' for Celsius or 'F' for Fahrenheit.");
         }
     }
-
     public static void main(String[] args) {
         // Convert 20 degrees Celsius to Fahrenheit
         double convertedTemp1 = convertTemperature(20, 'C', 'F');
