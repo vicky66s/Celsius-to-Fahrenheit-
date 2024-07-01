@@ -2,7 +2,7 @@ public class TemperatureConverter {
     public static double convertTemperature(double temp, char fromUnit, char toUnit) {
         // temp: temperature in the original unit (Celsius or Fahrenheit)
         // fromUnit: input temperature unit ('C' for Celsius and 'F' for Fahrenheit)
-        // toUnit: output temperature unit ('C' for Celsius and 'F' for Fahrenheit)
+        // toUnit: output temperature unit ('C' for Celsius and 'F' for Fahrenheit)020
     
         if (fromUnit == 'C') {
             if (toUnit == 'F') {
