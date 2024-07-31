@@ -25,7 +25,7 @@ public class TemperatureConverter {
         }
     }
     public static void main(String[] args) {
-        // Convert 20 degrees Celsius to Fahrenheit
+        // Convert 20 degrees Celsius to Fahrenheit0
         double convertedTemp1 = convertTemperature(20, 'C', 'F');
         System.out.println("20 degrees Celsius is equivalent to " + convertedTemp1 + " degrees Fahrenheit.");
 
